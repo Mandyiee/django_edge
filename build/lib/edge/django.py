@@ -34,9 +34,9 @@ def django_edge():
                 else:
                     print('your file path does not exist')
                     print('')
-
-            print('Invalid Input. Please Try Again')
-            print('')
+            else:
+                print('Invalid Input. Please Try Again')
+                print('')
                 
 
         os.chdir(Path.home())
@@ -129,8 +129,8 @@ def django_edge():
                 with open("views.py", "a") as f:
                     for i in range(len(filenames)):
                         text = f"""
-        def {file_names[i][0].replace('-','_')}(request):
-            return render(request,'{file_names[i][0]}.html')
+def {file_names[i][0].replace('-','_')}(request):
+    return render(request,'{file_names[i][0]}.html')
                         """
                         f.write(text)
                     f.write("#views created")

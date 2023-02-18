@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+django_edge.egg-info/PKG-INFO
+django_edge.egg-info/SOURCES.txt
+django_edge.egg-info/dependency_links.txt
+django_edge.egg-info/entry_points.txt
+django_edge.egg-info/requires.txt
+django_edge.egg-info/top_level.txt
+edge/__init__.py
+edge/cli.py
+edge/django.py

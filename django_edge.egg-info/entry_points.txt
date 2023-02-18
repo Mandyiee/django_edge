@@ -1,0 +1,2 @@
+[console_scripts]
+django_edge = edge.cli:main

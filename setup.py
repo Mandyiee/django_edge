@@ -11,9 +11,9 @@ setuptools.setup(
     description=("A package that helps you setup django so that you can focus on the important things."),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/Mandyiee/django_edge.git",
     project_urls={
-        "Bug Tracker": "",
+        "Bug Tracker": "https://github.com/Mandyiee/django_edge.git/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",

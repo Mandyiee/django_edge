@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: django-edge
 Version: 0.0.1
 Summary: A package that helps you setup django so that you can focus on the important things.
-Home-page: 
+Home-page: https://github.com/Mandyiee/django_edge.git
 Author: Okonkwo mandy
 Author-email: okonkwomandy101@gmail.com
-Project-URL: Bug Tracker, 
+Project-URL: Bug Tracker, https://github.com/Mandyiee/django_edge.git/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
